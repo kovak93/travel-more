@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+
+body{
+	font: 400 16px/1.5 'Josefin Sans',Arial, sans-serif;
+	color:#fff;
+	border:15px solid #fff;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1150px;
+}
+h1,h2,h3,h4,h5,h6,h7{
+	font-weight: 700;
+	letter-spacing: 0.16em;
+}
+p{
+	margin: 0 0 ;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-bhromaon{
+	background: #B3BDCC url(../img/image.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 265px 0 215px;
+	
+	font-size: 14px;
+	position: relative;
+}
+.ba-page__title{
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 12px;
+	letter-spacing: 4.8px;
+}
+.ba-header-safe{
+	font-size: 22px;
+	letter-spacing: 6.22px;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.ba-search-form{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 115px;
+}
+.ba-search-form input[type="text"]{
+    min-height: 60px;
+    font-weight: 700;
+    width: 500px;
+    border: none;
+    background-color: #F1F1F1;
+    color: #ec5a62;
+    outline: none;
+}
+input[type="text"]::placeholder {
+    color: #999999;
+	font-family: "Josefin Sans";
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+.ba-search-form button{
+	border: none;
+    background: #5474FD;
+	display: flex;
+	padding: 0 36px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #ffffff;
+	display: flex;
+    align-items: center;
+
+}
+.ba-search-form img{
+	width:20px;
+	height:20px;
+	margin-left: 15px;
+}
+.scroll{
+	font-size: 14px;
+	letter-spacing: 2.8px;
+	font-weight: 300;
+}
+.scroll p{
+	margin-bottom: 13px;
+}
+.ba-scroll{
+	display: block;
+	width: 15px;
+	height:8px;
+	position: absolute;
+	bottom:135px;
+	left:50%;
+	margin-left:-12px;
+	background:url(../img/scroll.svg)50% no-repeat;
+}
+.ba-header{
+	position: static;
+	z-index: 2;
+	left:0;
+	bottom:0;
+	right:0;
+	background: #5474FD;
+	
+	
+}
+.ba-header-bar{
+	
+	justify-content: space-between;
+	display: flex;
+	/*align-items: center;*/
+	padding-top: 33px;
+	padding-bottom: 34px;
+	align-content: center;
+	align-items: center;
+	color:#fff;
+}
+.ba-menu{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+.ba-menu li{
+	padding-left: 40px;
+	margin-left: 0px;
+	line-height: 1;
+}
+.ba-logo-title{
+	margin:0;
+	align-content: center;
+	align-items: center;
+	color:#fff;
+	text-transform: uppercase;
+}
+.ba-menu a{
+	color:#fff;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Aleo';
+}
+.ba-menu a:hover{
+	opacity:.5;
+	border-bottom:1px dashed #fff;
+}
+.ba-logo-title:hover{
+	opacity:.6;
+}
+.ba-chooseus{	
+	background: #B3BDCC url(../img/rectangle.jpg)50% no-repeat;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	
+}
+.ba-chooseus-text{
+padding-top: 163px;
+margin-bottom: 120px;
+}
+.ba-chooseus-text__title{
+	font-size: 36px;
+	font-family: 'Aleo';
+	text-align: left;
+	text-transform: uppercase;
+	color:#fff;
+	margin-bottom: 40px;
+}
+.ba-chooseus-text p{
+	color:#e8e8e8;
+	font-size: 16px;
+	text-align: left;
+	font-family: "Josefin Sans";
+	letter-spacing: 0.6px;
+	margin-bottom: 48px;
+	line-height: 26px;
+}
+.ba-button{
+	height: 60px;
+	line-height: 60px;
+	background: #5474FD;
+	margin: 0;
+	padding: 0 38px;
+	text-transform: uppercase;
+	font-family: Aleo;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	display: flex;
+    max-width: 230px;
+}
+.ba-button:hover{
+	opacity: 0.5;
+}
+.ba-choose-img{
+	padding-top:120px;
+	
+}
+.ba-picture img{
+margin-left: 125px;
+}
+.ba-spain{	
+	background: #605689 url(../img/spain.jpg)50% no-repeat;
+	text-align: left;
+	padding: 229px 0 100px;
+	font-size: 14px;
+	position: relative;
+	
+	
+}
+.ba-spain-madrid{
+	background-color: #2F2B2A;
+	opacity:.9;
+	padding-left: 30px;
+	padding-bottom:40px;
+}
+.ba-spain-title{
+	padding-top: 50px;
+color: #e8e8e8;
+font-family: "Josefin Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 1.5px;
+}
+.ba-spain-subtitle{
+	
+color: #ffffff;
+font-family: "Josefin Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: -0.01em;
+}
+.ba-spain-madrid p{
+	color: #e8e8e8;
+font-family: "Josefin Sans";
+font-size: 16px;
+letter-spacing: -0.045em;
+font-weight: 400;
+line-height: 26px;
+padding-bottom: 45px;
+}
+.ba-button--madrid{
+	padding: 0 63px;
+	color:#fff;
+}
+.ba-spain--second{
+	background:url(../img/spain2.jpg)50% no-repeat;
+}
+.ba-tourist{
+	background:url(../img/tourist.jpg)50% no-repeat;
+	padding: 120px 0 190px;
+	
+}
+.ba-tour-title{
+	text-align: center;
+	text-transform: inherit;
+}
+.ba-tourist-info{
+	display: flex;
+	align-items: center;
+}
+.ba-tourist-info img{
+	min-width: 445px;
+height: 284px;
+margin-top:8px;
+}
+.ba-tourist-info blockquote{
+	margin:0;
+	padding: 40px 54px 0 60px;
+	background-color: #333333;
+	width: 665px;
+	min-height: 284px;
+	font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: -0.07em;
+}
+.ba-blockqouter{
+	font-size: 20px;
+	color:#5474FD;
+}
+.ba-footer{
+	padding:120px 0 54px; 
+	background: #232323;
+}
+.ba-contact{
+	display:block;
+	text-align: center;
+	width:440px;
+	margin:0 auto;
+}
+.ba-contact h1{
+	text-align:center;
+	color: #ffffff;
+font-family: "Josefin Sans";
+font-size: 24px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+margin-bottom:10px;
+/* Text style for "Bhromaon" */
+letter-spacing: 3.36px;
+}
+.ba-contact p{
+	color: #ffffff;
+font-family: "Josefin Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+/* Text style for "S, afe Tra" */
+letter-spacing: 1.6px;
+margin-bottom:25px;
+}
+.ba-socials{
+	width:440px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ba-socials a + a{
+	margin-left: 24px;
+}
+.icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	stroke-width: 0;
+	fill: #fff;
+  }
+  .ba-hidden{
+	display: none;
+}
+.icon-linkedin2{
+	fill:#5474FD;
+}
